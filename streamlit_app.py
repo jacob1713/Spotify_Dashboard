@@ -7,7 +7,7 @@ import millify as mf
 ### CLEANING ###
 
 # Load Data
-data = pd.read_csv('/workspaces/top_spotify_songs/data/Spotify Most Streamed Songs.csv')
+data = pd.read_csv('data/Spotify Most Streamed Songs.csv')
 
 # Clean and adjust data
 # Manually change artist(s)_name for index 742 to Matuï¿½ï¿½, Wiu, Teto
