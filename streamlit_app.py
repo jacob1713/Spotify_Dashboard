@@ -83,7 +83,7 @@ unique_artists = np.sort(unique_artists)
 unique_artists = np.insert(unique_artists, 0, 'Select All')
 
 # Add logo to sidebar
-st.sidebar.image('/workspaces/top_spotify_songs/data/Spotify_Primary_Logo_RGB_Green.png', width=100)
+st.sidebar.image('data/Spotify_Primary_Logo_RGB_Green.png', width=100)
 
 # Add sidebar with app title
 st.sidebar.title('Spotify Most Streamed Songs')
